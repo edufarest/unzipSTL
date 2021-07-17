@@ -6,6 +6,6 @@ mv $name $dir
 
 pushd $dir
 
-unzip $name -d ${$name:0:-4}
+unzip $name -d ${name:0:-4}
 
 rm $name
